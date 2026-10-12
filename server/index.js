@@ -34,7 +34,7 @@ app.use(
 	cors({
     origin: [
       "http://localhost:3000",
-      "https://ed-tech-platform-rho.vercel.app/",
+      "https://ed-tech-platform-rho.vercel.app",
     ],
 	})
 );
