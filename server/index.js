@@ -32,8 +32,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "*",
-		credentials: true,
+    origin: [
+      "http://localhost:3000",
+      "https://ed-tech-platform-rho.vercel.app/",
+    ],
 	})
 );
 app.use(
